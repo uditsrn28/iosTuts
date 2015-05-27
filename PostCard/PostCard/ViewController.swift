@@ -16,6 +16,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var sendPostCardButton: UIButton!
 
+    @IBOutlet weak var nameLabel: UILabel!
     
     
     
@@ -35,7 +36,15 @@ class ViewController: UIViewController {
         messageLabel.textColor = UIColor.redColor()
         messageTextField.text = ""
         messageTextField.resignFirstResponder()
+
+        nameLabel.hidden = false
+        nameLabel.text = nameTextField.text
+        nameLabel.textColor = UIColor.blueColor()
+        nameTextField.text = ""
+        nameTextField.resignFirstResponder()
+
         sendPostCardButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        
     }
 
 }

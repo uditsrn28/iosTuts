@@ -19,7 +19,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1-iPhone-5-Wallpaper-Fun-green.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O8D-fO-Shg">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="215" y="158" width="169" height="139"/>
+                                    <rect key="frame" x="215" y="179" width="169" height="139"/>
                                 </variation>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NI6-gd-RAR">
@@ -27,7 +27,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="31" y="313" width="353" height="30"/>
+                                    <rect key="frame" x="31" y="334" width="353" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3lE-ZB-9wy">
@@ -35,30 +35,39 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="31" y="350" width="353" height="30"/>
+                                    <rect key="frame" x="31" y="371" width="353" height="30"/>
                                 </variation>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdV-rm-awV">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="64" width="368" height="71"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9Q-mp-Xav">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Send Postcard">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="267" width="119" height="30"/>
+                                    <rect key="frame" x="16" y="288" width="119" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="sendPostCardButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nS0-o3-27j"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3va-jp-eiz">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="64" width="113" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdV-rm-awV">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="84" width="368" height="71"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -66,8 +75,9 @@
                                 <exclude reference="O8D-fO-Shg"/>
                                 <exclude reference="NI6-gd-RAR"/>
                                 <exclude reference="3lE-ZB-9wy"/>
-                                <exclude reference="RdV-rm-awV"/>
                                 <exclude reference="B9Q-mp-Xav"/>
+                                <exclude reference="3va-jp-eiz"/>
+                                <exclude reference="RdV-rm-awV"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -75,14 +85,16 @@
                                 <include reference="O8D-fO-Shg"/>
                                 <include reference="NI6-gd-RAR"/>
                                 <include reference="3lE-ZB-9wy"/>
-                                <include reference="RdV-rm-awV"/>
                                 <include reference="B9Q-mp-Xav"/>
+                                <include reference="3va-jp-eiz"/>
+                                <include reference="RdV-rm-awV"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="messageLabel" destination="RdV-rm-awV" id="U2H-bl-rU9"/>
                         <outlet property="messageTextField" destination="3lE-ZB-9wy" id="FlH-iQ-tAE"/>
+                        <outlet property="nameLabel" destination="3va-jp-eiz" id="pc5-b5-eBx"/>
                         <outlet property="nameTextField" destination="NI6-gd-RAR" id="bzC-km-3DT"/>
                         <outlet property="sendPostCardButton" destination="B9Q-mp-Xav" id="jtU-f2-jUD"/>
                     </connections>
