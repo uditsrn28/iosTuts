@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1A78314E-D73B-4346-97C6-0E45BE1F0C79</string>
+	<key>IDESourceControlProjectName</key>
+	<string>bitfountain</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>851B96A179D4DDC2C06059B1F6CF6BFD39EEB353</key>
+		<string>https://github.com/uditsrn28/iosTuts.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>bitfountain.playground</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>851B96A179D4DDC2C06059B1F6CF6BFD39EEB353</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/uditsrn28/iosTuts.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>851B96A179D4DDC2C06059B1F6CF6BFD39EEB353</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>851B96A179D4DDC2C06059B1F6CF6BFD39EEB353</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Workspace_ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

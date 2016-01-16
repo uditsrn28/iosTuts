@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aPS-uL-L5Z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aPS-uL-L5Z">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -16,12 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1-iPhone-5-Wallpaper-Fun-green.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O8D-fO-Shg">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="215" y="179" width="169" height="139"/>
-                                </variation>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NI6-gd-RAR">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -68,26 +62,32 @@
                                     <rect key="frame" x="11" y="84" width="368" height="71"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1-iPhone-5-Wallpaper-Fun-green.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O8D-fO-Shg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="209" y="224" width="172" height="139"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="O8D-fO-Shg"/>
                                 <exclude reference="NI6-gd-RAR"/>
                                 <exclude reference="3lE-ZB-9wy"/>
                                 <exclude reference="B9Q-mp-Xav"/>
                                 <exclude reference="3va-jp-eiz"/>
                                 <exclude reference="RdV-rm-awV"/>
+                                <exclude reference="O8D-fO-Shg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="O8D-fO-Shg"/>
                                 <include reference="NI6-gd-RAR"/>
                                 <include reference="3lE-ZB-9wy"/>
                                 <include reference="B9Q-mp-Xav"/>
                                 <include reference="3va-jp-eiz"/>
                                 <include reference="RdV-rm-awV"/>
+                                <include reference="O8D-fO-Shg"/>
                             </mask>
                         </variation>
                     </view>
@@ -112,6 +112,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bnL-nS-D1R"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5ud-XF-dlr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Apple-Logo-Metal-Texture-iphone-5s-wallpaper-ilikewallpaper_com.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Qxd-US-awh">
